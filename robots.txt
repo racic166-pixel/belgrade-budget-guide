@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://racic166-pixel.github.io/belgrade-budget-guide/sitemap.xml
