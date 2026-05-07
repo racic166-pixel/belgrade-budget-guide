@@ -7,9 +7,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Belgrade Travel Guide 2026 | Cheap Hotels, Food, Itinerary & Budget Tips</title>
+<title>Belgrade Travel Guide 2026 | Budget Tips, Food, Places & Hidden Gems</title>
 
-<meta name="description" content="Complete Belgrade travel guide for 2026: cheap hotels, best attractions, food spots, cafés, budget tips, and day trips in Serbia.">
+<meta name="description" content="Complete Belgrade travel guide for 2026: best places, food, cafés, budget tips, and hidden gems in Serbia.">
 
 <style>
 body{
@@ -20,6 +20,7 @@ color:#e5e7eb;
 line-height:1.6;
 }
 
+/* NAV */
 nav{
 position:sticky;
 top:0;
@@ -39,12 +40,13 @@ font-weight:bold;
 
 nav a:hover{color:white;}
 
+/* HEADER */
 header{
 background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.75)),
 url('https://images.unsplash.com/photo-1541849546-216549ae216d?auto=format&fit=crop&w=1600&q=80');
 background-size:cover;
 background-position:center;
-padding:130px 20px;
+padding:120px 20px;
 text-align:center;
 }
 
@@ -54,12 +56,43 @@ margin:0;
 }
 
 .subtitle{
-max-width:800px;
+max-width:850px;
 margin:15px auto 0;
 font-size:18px;
 opacity:0.9;
 }
 
+/* QUICK INFO */
+.quick-info{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+margin-top:20px;
+font-size:14px;
+}
+
+.quick-info div{
+background:#0f172a;
+padding:8px 12px;
+border-radius:10px;
+border:1px solid rgba(255,255,255,0.05);
+}
+
+/* HERO STRIP */
+.hero-strip{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:5px;
+}
+
+.hero-strip img{
+width:100%;
+height:160px;
+object-fit:cover;
+}
+
+/* LAYOUT */
 .container{
 max-width:1100px;
 margin:auto;
@@ -79,6 +112,7 @@ grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:20px;
 }
 
+/* CARDS */
 .card{
 background:#0f172a;
 border-radius:16px;
@@ -89,55 +123,65 @@ transition:0.25s;
 
 .card:hover{
 transform:translateY(-6px);
-box-shadow:0 10px 25px rgba(0,0,0,0.4);
 }
 
 .card img{
 width:100%;
 height:200px;
 object-fit:cover;
+transition:0.3s;
+}
+
+.card:hover img{
+transform:scale(1.05);
 }
 
 .card-content{
 padding:15px;
 }
 
+/* BADGE */
+.badge{
+display:inline-block;
+background:#38bdf8;
+color:black;
+font-size:12px;
+padding:4px 8px;
+border-radius:8px;
+margin-bottom:8px;
+font-weight:bold;
+}
+
+/* LINKS */
 .card a{
 display:inline-block;
 margin-top:10px;
 color:#38bdf8;
-font-weight:bold;
-text-decoration:none;
-}
-
-.cta{
-display:inline-block;
-margin-top:10px;
-padding:10px 14px;
-background:#38bdf8;
-color:black;
-border-radius:10px;
 text-decoration:none;
 font-weight:bold;
 }
 
-.cta:hover{
-background:white;
-}
-
+/* HIGHLIGHT BOX */
 .highlight{
 background:#0f172a;
 padding:25px;
 border-radius:16px;
 margin-top:20px;
+border:1px solid rgba(255,255,255,0.05);
 }
 
+/* FOOTER */
 footer{
 text-align:center;
 padding:30px;
 background:#0b1628;
 opacity:0.7;
 margin-top:40px;
+}
+
+/* SMOOTH SCROLL */
+html{
+scroll-behavior:smooth;
 }
 </style>
 
@@ -149,43 +193,65 @@ margin-top:40px;
 <a href="#places">Places</a>
 <a href="#food">Food</a>
 <a href="#budget">Budget</a>
-<a href="#hotels">Hotels</a>
-<a href="#trips">Day Trips</a>
-<a href="#cafes">Cafés</a>
+<a href="#gallery">Gallery</a>
+<a href="#tips">Tips</a>
 </nav>
 
 <header>
 <h1>Belgrade Travel Guide 🇷🇸</h1>
+
 <p class="subtitle">
-Your complete 2026 guide: attractions, food, hotels, cafés, budget tips, and hidden gems.
+A complete 2026 guide with places, food, cafés, budget tips, and hidden local experiences.
 </p>
+
+<div class="quick-info">
+<div>📍 Belgrade, Serbia</div>
+<div>💰 €25–€50/day</div>
+<div>🕒 Best: Apr–Oct</div>
+<div>✈️ Airport: BEG</div>
+</div>
 </header>
+
+<div class="hero-strip">
+<img src="https://images.unsplash.com/photo-1580834341580-8c17a3a6306a">
+<img src="https://images.unsplash.com/photo-1593697821252-0c9137d9fc45">
+<img src="https://images.unsplash.com/photo-1605559424843-9e4c1f0e2b8f">
+</div>
 
 <div class="container">
 
+<!-- WHY VISIT -->
+<section>
+<h2 class="section-title">Why Visit Belgrade?</h2>
+
+<div class="highlight">
+Belgrade is one of Europe’s most underrated cities — cheap, energetic, full of history, nightlife, and riverside views. Perfect for budget travelers and city explorers.
+</div>
+</section>
+
 <!-- PLACES -->
 <section id="places">
-<h2 class="section-title">🏙️ Best Places in Belgrade</h2>
+<h2 class="section-title">🏙️ Places to Visit</h2>
 
 <div class="grid">
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1580834341580-8c17a3a6306a">
 <div class="card-content">
+<span class="badge">⭐ Must Visit</span>
 <h3>Kalemegdan Fortress</h3>
-<p>Best sunset view in Belgrade over two rivers.</p>
-<a href="https://www.google.com/maps/place/Kalemegdan+Fortress" target="_blank">📍 Maps</a>
-<a class="cta" href="https://www.booking.com/searchresults.html?ss=Belgrade+near+Kalemegdan" target="_blank">Hotels nearby</a>
+<p>Best sunset view over rivers and historic park.</p>
+<a href="https://www.google.com/maps/place/Kalemegdan+Fortress" target="_blank">📍 Open in Maps</a>
 </div>
 </div>
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1593697821252-0c9137d9fc45">
 <div class="card-content">
+<span class="badge">⭐ Central Spot</span>
 <h3>Knez Mihailova</h3>
-<p>Main pedestrian street with cafés and shops.</p>
-<a href="https://www.google.com/maps/place/Knez+Mihailova" target="_blank">📍 Maps</a>
-<a class="cta" href="https://www.booking.com/searchresults.html?ss=Belgrade+city+center" target="_blank">Stay nearby</a>
+<p>Main walking street with cafés and shops.</p>
+<a href="https://www.google.com/maps/place/Knez+Mihailova" target="_blank">📍 Open in Maps</a>
 </div>
 </div>
 
@@ -197,9 +263,9 @@ Your complete 2026 guide: attractions, food, hotels, cafés, budget tips, and hi
 <h2 class="section-title">🍽️ Food in Belgrade</h2>
 
 <div class="highlight">
-<p><b>Budget food:</b> bakeries (burek), street grills</p>
-<p><b>Must try:</b> ćevapi, pljeskavica, sarma</p>
-<p><b>Best areas:</b> Dorćol, Zemun, Savamala</p>
+<b>Must try:</b> ćevapi, pljeskavica, burek, sarma<br>
+<b>Best areas:</b> Dorćol, Zemun, Savamala<br>
+<b>Budget tip:</b> bakeries are the cheapest + best option
 </div>
 </section>
 
@@ -208,74 +274,41 @@ Your complete 2026 guide: attractions, food, hotels, cafés, budget tips, and hi
 <h2 class="section-title">💰 Budget Tips</h2>
 
 <div class="highlight">
-<ul>
-<li>€25–€50 per day is enough</li>
-<li>Use public transport (very cheap)</li>
-<li>Walk instead of taxis</li>
-<li>Stay outside tourist center for cheaper hotels</li>
-</ul>
+• €25–€50 per day is enough<br>
+• Use public transport (very cheap)<br>
+• Walk instead of taxis<br>
+• Stay outside strict city center for cheaper prices
 </div>
 </section>
 
-<!-- HOTELS (MONETIZATION CORE) -->
-<section id="hotels">
-<h2 class="section-title">🏨 Hotels & Stays</h2>
+<!-- GALLERY -->
+<section id="gallery">
+<h2 class="section-title">📸 Photo Gallery</h2>
 
 <div class="grid">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945">
-<div class="card-content">
-<h3>City Center Hotels</h3>
-<p>Best location for first-time visitors.</p>
-<a class="cta" href="https://www.booking.com/searchresults.html?ss=Belgrade+city+center" target="_blank">Find Hotels</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1501117716987-c8e1ecb2100a">
-<div class="card-content">
-<h3>Budget Apartments</h3>
-<p>Cheap stays for long trips.</p>
-<a class="cta" href="https://www.booking.com/searchresults.html?ss=Belgrade+apartments" target="_blank">View Deals</a>
-</div>
-</div>
-
+<div class="card"><img src="https://images.unsplash.com/photo-1541849546-216549ae216d"></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21"></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1605559424843-9e4c1f0e2b8f"></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814"></div>
 </div>
 </section>
 
-<!-- DAY TRIPS -->
-<section id="trips">
-<h2 class="section-title">🌊 Day Trips</h2>
-
-<div class="grid">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21">
-<div class="card-content">
-<h3>Ada Ciganlija</h3>
-<p>Beach-style river area with cafés & sports.</p>
-<a href="https://www.google.com/maps/place/Ada+Ciganlija" target="_blank">📍 Maps</a>
-</div>
-</div>
-
-</div>
-</section>
-
-<!-- CAFES -->
-<section id="cafes">
-<h2 class="section-title">☕ Cafés</h2>
+<!-- TIPS -->
+<section id="tips">
+<h2 class="section-title">💡 Pro Travel Tips</h2>
 
 <div class="highlight">
-<p>Dorćol and Vračar are the best café districts in Belgrade.</p>
-<p>Perfect for digital nomads and relaxed travel days.</p>
+✔ Walk from Kalemegdan to Skadarlija at sunset (best free experience)<br>
+✔ Try local bakeries instead of restaurants for cheap food<br>
+✔ Stay in Dorćol for best balance of price + location<br>
+✔ Evenings = best vibe in riverside areas
 </div>
 </section>
 
 </div>
 
 <footer>
-© 2026 Belgrade Travel Guide — Built for travelers & SEO growth
+© 2026 Belgrade Travel Guide — Built for travelers
 </footer>
 
 </body>
