@@ -9,7 +9,7 @@
 
 <title>Belgrade Travel Guide 2026 | Budget, Food, Itinerary & Hidden Gems</title>
 
-<meta name="description" content="Complete Belgrade travel guide 2026. Discover places, food, cafés, budget tips, 3-day itinerary, and hidden gems in Serbia.">
+<meta name="description" content="Complete Belgrade travel guide 2026. Explore budget tips, food, cafés, attractions, itinerary, and hidden gems in Serbia.">
 
 <style>
 body{
@@ -20,7 +20,6 @@ color:#e5e7eb;
 line-height:1.6;
 }
 
-/* NAV */
 nav{
 position:sticky;
 top:0;
@@ -28,6 +27,7 @@ background:#0b1628;
 padding:14px;
 text-align:center;
 border-bottom:1px solid rgba(255,255,255,0.08);
+z-index:1000;
 }
 
 nav a{
@@ -39,7 +39,6 @@ font-weight:bold;
 
 nav a:hover{color:white;}
 
-/* HEADER */
 header{
 background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.75)),
 url('https://images.unsplash.com/photo-1541849546-216549ae216d?auto=format&fit=crop&w=1600&q=80');
@@ -61,7 +60,6 @@ font-size:18px;
 opacity:0.9;
 }
 
-/* QUICK INFO */
 .quick-info{
 display:flex;
 flex-wrap:wrap;
@@ -78,14 +76,12 @@ border-radius:10px;
 border:1px solid rgba(255,255,255,0.05);
 }
 
-/* CONTAINER */
 .container{
 max-width:1100px;
 margin:auto;
 padding:60px 20px;
 }
 
-/* TITLES */
 .section-title{
 font-size:32px;
 margin-bottom:25px;
@@ -93,18 +89,16 @@ color:#60a5fa;
 text-align:center;
 }
 
-/* GRID */
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:20px;
 }
 
-/* CARD */
 .card{
 background:#0f172a;
 border-radius:16px;
-overflow:hidden;
+padding:15px;
 border:1px solid rgba(255,255,255,0.06);
 transition:0.25s;
 }
@@ -113,17 +107,6 @@ transition:0.25s;
 transform:translateY(-6px);
 }
 
-.card img{
-width:100%;
-height:200px;
-object-fit:cover;
-}
-
-.card-content{
-padding:15px;
-}
-
-/* HIGHLIGHT */
 .highlight{
 background:#0f172a;
 padding:25px;
@@ -132,8 +115,8 @@ margin-top:20px;
 border:1px solid rgba(255,255,255,0.05);
 }
 
-/* SEO BLOCK */
-.seo-block{
+/* 🔥 SEO TRAFFIC BLOCKS */
+.seo-hook{
 background:#0f172a;
 padding:25px;
 border-radius:16px;
@@ -141,7 +124,23 @@ border:1px solid rgba(255,255,255,0.05);
 margin-top:20px;
 }
 
-/* FOOTER */
+.seo-hook b{
+color:#60a5fa;
+}
+
+/* 🌍 CLUSTER CARDS */
+.cluster-card{
+background:#0f172a;
+padding:20px;
+border-radius:16px;
+border:1px solid rgba(255,255,255,0.06);
+transition:0.3s;
+}
+
+.cluster-card:hover{
+transform:scale(1.02);
+}
+
 footer{
 text-align:center;
 padding:30px;
@@ -150,7 +149,6 @@ opacity:0.7;
 margin-top:40px;
 }
 
-/* SMOOTH SCROLL */
 html{
 scroll-behavior:smooth;
 }
@@ -166,7 +164,7 @@ scroll-behavior:smooth;
 <a href="#food">Food</a>
 <a href="#budget">Budget</a>
 <a href="#itinerary">Itinerary</a>
-<a href="#expand">More</a>
+<a href="#cluster">Explore</a>
 </nav>
 
 <header>
@@ -174,7 +172,7 @@ scroll-behavior:smooth;
 <h1>Belgrade Travel Guide 🇷🇸</h1>
 
 <p class="subtitle">
-A complete 2026 travel guide with everything you need: places, food, budget tips, itinerary, and hidden gems.
+Complete 2026 guide for budget travel, food, attractions, itinerary, and hidden gems.
 </p>
 
 <div class="quick-info">
@@ -188,12 +186,12 @@ A complete 2026 travel guide with everything you need: places, food, budget tips
 
 <div class="container">
 
-<!-- INTRO SEO -->
+<!-- 🔥 SEO ENTRY POINT -->
 <section id="intro">
 <h2 class="section-title">Plan Your Trip to Belgrade</h2>
 
-<div class="seo-block">
-Belgrade is one of Europe’s most underrated travel destinations. It combines low prices, strong nightlife, historic landmarks, river views, and a growing café culture. It is ideal for budget travelers and short city breaks.
+<div class="seo-hook">
+<b>Belgrade budget travel guide:</b> Everything you need to plan a cheap and efficient trip to Serbia’s capital, including attractions, food spots, and itinerary planning.
 </div>
 </section>
 
@@ -202,30 +200,24 @@ Belgrade is one of Europe’s most underrated travel destinations. It combines l
 <h2 class="section-title">Why Visit Belgrade?</h2>
 
 <div class="highlight">
-Belgrade offers a unique mix of history, nightlife, culture, and affordability. It is one of the best budget-friendly cities in Europe for first-time travelers.
+Belgrade is one of Europe’s most affordable and underrated cities. It combines nightlife, history, river views, and strong local food culture.
 </div>
 </section>
 
 <!-- PLACES -->
 <section id="places">
-<h2 class="section-title">🏙️ Best Places</h2>
+<h2 class="section-title">🏙️ Best Places in Belgrade</h2>
 
 <div class="grid">
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1580834341580-8c17a3a6306a">
-<div class="card-content">
+<div class="cluster-card">
 <h3>Kalemegdan Fortress</h3>
-<p>Historic fortress with panoramic river views.</p>
-</div>
+<p>Historic landmark with river views and sunset spots.</p>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1593697821252-0c9137d9fc45">
-<div class="card-content">
-<h3>Knez Mihailova</h3>
-<p>Main pedestrian street full of life.</p>
-</div>
+<div class="cluster-card">
+<h3>Knez Mihailova Street</h3>
+<p>Main pedestrian zone full of cafés and shops.</p>
 </div>
 
 </div>
@@ -237,20 +229,19 @@ Belgrade offers a unique mix of history, nightlife, culture, and affordability. 
 
 <div class="highlight">
 Must try: ćevapi, pljeskavica, burek, sarma<br>
-Best areas: Dorćol, Zemun, Savamala<br>
-Budget tip: bakeries are cheapest + most authentic
+Best areas: Dorćol, Zemun, Savamala
 </div>
 </section>
 
 <!-- BUDGET -->
 <section id="budget">
-<h2 class="section-title">💰 Budget Tips</h2>
+<h2 class="section-title">💰 Budget Travel Tips</h2>
 
 <div class="highlight">
-• €25–€50/day is enough for comfortable travel<br>
-• Public transport is very cheap<br>
-• Walking is the best way to explore<br>
-• Stay slightly outside city center for better prices
+• €25–€50 per day average budget<br>
+• Walk instead of taxis<br>
+• Use public transport (very cheap)<br>
+• Stay outside tourist center for savings
 </div>
 </section>
 
@@ -258,38 +249,32 @@ Budget tip: bakeries are cheapest + most authentic
 <section id="itinerary">
 <h2 class="section-title">🧭 3-Day Itinerary</h2>
 
-<div class="seo-block">
+<div class="seo-hook">
 <b>Day 1:</b> Kalemegdan → Knez Mihailova → Skadarlija<br><br>
 <b>Day 2:</b> Museums → Dorćol cafés → nightlife<br><br>
 <b>Day 3:</b> Ada Ciganlija → riverside walk → sunset spots
 </div>
 </section>
 
-<!-- EXPANSION SYSTEM -->
-<section id="expand">
-<h2 class="section-title">🌍 Explore More Guides</h2>
+<!-- 🌍 CLUSTER SYSTEM (THIS IS THE GROWTH ENGINE) -->
+<section id="cluster">
+<h2 class="section-title">🌍 Explore More Travel Guides</h2>
 
 <div class="grid">
 
-<div class="card">
-<div class="card-content">
+<div class="cluster-card">
 <h3>🇷🇸 Serbia Travel Guide</h3>
-<p>Expand beyond Belgrade into Serbia’s best cities.</p>
-</div>
+<p>Expand beyond Belgrade into Serbia’s best destinations.</p>
 </div>
 
-<div class="card">
-<div class="card-content">
+<div class="cluster-card">
 <h3>🏙️ Novi Sad Guide</h3>
-<p>Cheaper, calmer alternative with strong culture.</p>
-</div>
+<p>Cheaper, calmer city with strong culture and nightlife.</p>
 </div>
 
-<div class="card">
-<div class="card-content">
-<h3>🌍 Balkan Travel Route</h3>
-<p>Multi-country budget travel system.</p>
-</div>
+<div class="cluster-card">
+<h3>🌍 Balkan Budget Route</h3>
+<p>Multi-country travel system across Southeast Europe.</p>
 </div>
 
 </div>
@@ -298,7 +283,7 @@ Budget tip: bakeries are cheapest + most authentic
 </div>
 
 <footer>
-© 2026 Belgrade Travel Guide — Built for SEO growth & travel discovery
+© 2026 Belgrade Travel Guide — SEO Growth Engine Version
 </footer>
 
 </body>
